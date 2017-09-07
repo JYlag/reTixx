@@ -13,6 +13,7 @@ public class IndexController {
     public String index (Model model) {
 
         model.addAttribute("title", "ReTixx");
+        model.addAttribute("page", "ReTixx");
 
         return "index";
     }
